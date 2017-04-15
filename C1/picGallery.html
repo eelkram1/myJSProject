@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>picture list</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../css/layout.css" media="screen" />
+</head>
+<body>
+	<h1>snopshots</h1>
+	<ul id="picturelist">
+		<li>
+			<a href="../sources/butterfly.jpg" title="A colorful butterfly" onclick="showPic(this);return false;">butterfly</a>
+		</li>
+		<li>
+			<a href="../sources/city.jpg" title="A big city with many houses" >city</a>
+		</li>
+		<li>
+			<a href="../sources/desert.jpg" title="A desert">desert</a>
+		</li>
+		<li>
+			<a href="../sources/night.jpg" title="A city in night">night</a>
+		</li>
+	</ul>
+	<img id="placeholder" src="../sources/vagebird.jpg" title="I'm a vagebird" alt="Unless picture couldn't be found" width="300px" height="300px" />
+	<p id="holdertext">I'm a vagebird</p>
+	<script type="text/javascript" src="../js/addOnloadEvent.js"></script>
+	<script type="text/javascript" src="../js/picGallery.js"></script>
+</body>
+</html>
